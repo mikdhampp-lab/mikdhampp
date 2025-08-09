@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandhi Kerala - Authentic Middle Eastern Cuisine in Kerala</title>
+    <meta name="description" content="Discover the best Mandhi restaurants in Kerala. Authentic Middle Eastern cuisine, fresh ingredients, traditional recipes. Order online from 50+ restaurants across Kerala.">
+    <meta name="keywords" content="mandhi, kerala, middle eastern food, arabic cuisine, chicken mandhi, mutton mandhi, food delivery kerala">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mandhi Kerala - Authentic Middle Eastern Cuisine">
+    <meta property="og:description" content="Experience the rich flavors of traditional Middle Eastern cuisine with our signature Mandhi dishes across Kerala.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 class="logo-text">Mandhi Kerala</h1>
+                    <span class="logo-subtitle">Authentic Taste</span>
+                </div>
+                
+                <nav class="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#restaurants" class="nav-link">Restaurants</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <div class="header-info">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>10AM - 11PM</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Order Now</button>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Authentic <span class="text-gold">Mandhi</span><br>
+                    in Kerala
+                </h1>
+                <p class="hero-description">
+                    Experience the rich flavors of traditional Middle Eastern cuisine with our signature Mandhi dishes, prepared with love and authentic spices.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-gold">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Find Restaurants
+                    </button>
+                    <button class="btn btn-outline">View Menu</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-star"></i>
+                        <span>4.8 Rating</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span>50+ Restaurants</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span>Kerala Wide</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Restaurants -->
+    <section id="restaurants" class="restaurants">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured <span class="text-primary">Restaurants</span></h2>
+                <p class="section-description">
+                    Discover the best Mandhi restaurants across Kerala, each offering authentic flavors and exceptional dining experiences.
+                </p>
+            </div>
+            
+            <div class="restaurants-grid">
+                <!-- Restaurant Card 1 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://www.kronenhof.com/fileadmin/_processed_/4/0/csm_Grand_Restaurant-4_5648b959f1.jpg" alt="Spice Route Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="delivery-time">25-30 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Spice Route Mandhi</h3>
+                        <p class="restaurant-specialty">Traditional Lamb Mandhi</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>MG Road, Kochi</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>10:00 AM - 11:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543210</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Card 2 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://resource.explorex.co/wp-content/uploads/2023/04/Frame-3.png" alt="Kerala Mandhi House">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <div class="delivery-time">30-35 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Kerala Mandhi House</h3>
+                        <p class="restaurant-specialty">Chicken Mandhi Special</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Palayam, Thiruvananthapuram</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>11:00 AM - 10:30 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543211</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Card 3 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://www.saint-barths.com/images/5ec7f4aeae5af.png" alt="Arabian Delights">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <div class="delivery-time">20-25 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Arabian Delights</h3>
+                        <p class="restaurant-specialty">Mixed Grill Mandhi</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>SM Street, Kozhikode</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>10:30 AM - 11:30 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543212</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Card 4 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/71/b7/68/la-tablee-medievale.jpg?w=600&h=600&s=1" alt="Malabar Mandhi Corner">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.6</span>
+                        </div>
+                        <div class="delivery-time">35-40 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Malabar Mandhi Corner</h3>
+                        <p class="restaurant-specialty">Fish Mandhi</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Round South, Thrissur</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>11:00 AM - 10:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543213</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Card 5 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://media.timeout.com/images/105903457/1372/1029/image.jpg" alt="Royal Mandhi Palace">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="delivery-time">25-30 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Royal Mandhi Palace</h3>
+                        <p class="restaurant-specialty">Mutton Mandhi</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Manjeri, Malappuram</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>10:00 AM - 11:00 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543214</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restaurant Card 6 -->
+                <div class="restaurant-card">
+                    <div class="card-image">
+                        <img src="https://images.pexels.com/photos/2504911/pexels-photo-2504911.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Golden Spice Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <div class="delivery-time">20-25 mins</div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="restaurant-name">Golden Spice Mandhi</h3>
+                        <p class="restaurant-specialty">Vegetarian Mandhi</p>
+                        <div class="restaurant-info">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Mattancherry, Kochi</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>9:00 AM - 10:30 PM</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+91 9876543215</span>
+                            </div>
+                        </div>
+                        <div class="card-buttons">
+                            <button class="btn btn-primary">Order Now</button>
+                            <button class="btn btn-outline">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Dishes -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular <span class="text-accent">Dishes</span></h2>
+                <p class="section-description">
+                    Explore our most loved Mandhi varieties, prepared with authentic recipes and the finest ingredients.
+                </p>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Food Card 1 -->
+                <div class="food-card">
+                    <div class="food-image">
+                        <img src="https://www.tastingtable.com/img/gallery/28-rice-dishes-around-the-world-you-need-to-try/kabsa-saudi-arabia-1691516298.jpg" alt="Chicken Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <div class="veg-indicator non-veg"></div>
+                    </div>
+                    <div class="food-content">
+                        <div class="food-header">
+                            <h3 class="food-name">Chicken Mandhi</h3>
+                            <span class="food-price">₹29</span>
+                        </div>
+                        <p class="food-description">
+                            Tender chicken pieces cooked with aromatic basmati rice, traditional spices and saffron
+                        </p>
+                        <button class="btn btn-primary food-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Food Card 2 -->
+                <div class="food-card">
+                    <div class="food-image">
+                        <img src="https://www.timeoutriyadh.com/cloud/timeoutriyadh/2022/12/11/feast-festival.jpg" alt="Mutton Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                        <div class="veg-indicator non-veg"></div>
+                    </div>
+                    <div class="food-content">
+                        <div class="food-header">
+                            <h3 class="food-name">Mutton Mandhi</h3>
+                            <span class="food-price">₹399</span>
+                        </div>
+                        <p class="food-description">
+                            Succulent mutton slow-cooked with fragrant spices, served with perfectly spiced rice
+                        </p>
+                        <button class="btn btn-primary food-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Food Card 3 -->
+                <div class="food-card">
+                    <div class="food-image">
+                        <img src="https://salasdaily.com/cdn/shop/files/fishmandi_1200x1200.jpg?v=1694847828" alt="Fish Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                        <div class="veg-indicator non-veg"></div>
+                    </div>
+                    <div class="food-content">
+                        <div class="food-header">
+                            <h3 class="food-name">Fish Mandhi</h3>
+                            <span class="food-price">₹349</span>
+                        </div>
+                        <p class="food-description">
+                            Fresh Kerala fish marinated and cooked with traditional mandhi spices and basmati rice
+                        </p>
+                        <button class="btn btn-primary food-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Food Card 4 -->
+                <div class="food-card">
+                    <div class="food-image">
+                        <img src="https://www.maggiarabia.com/sites/default/files/styles/home_stage_944_531/public/srh_recipes/2d6efabbb9838e527d65c88dc911f7c7.jpg?h=4f5b30f1&itok=Fdje0XBk" alt="Vegetable Mandhi">
+                        <div class="rating-badge">
+                            <i class="fas fa-star"></i>
+                            <span>4.6</span>
+                        </div>
+                        <div class="veg-indicator veg"></div>
+                    </div>
+                    <div class="food-content">
+                        <div class="food-header">
+                            <h3 class="food-name">Vegetable Mandhi</h3>
+                            <span class="food-price">₹249</span>
+                        </div>
+                        <p class="food-description">
+                            Mixed vegetables cooked with aromatic spices and served with saffron-infused basmati rice
+                        </p>
+                        <button class="btn btn-primary food-btn">
+                            <i class="fas fa-plus"></i>
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+---
+
+<section class="game-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Spin the Wheel to <span class="text-primary">Win!</span></h2>
+            <p class="section-description">
+                Try your luck and win exclusive offers and discounts on our delicious Mandhi dishes.
+            </p>
+        </div>
+        <div class="game-container">
+            <div class="spin-wheel">
+                <img id="wheel" src="" alt="Spinning Wheel">
+                <div class="wheel-container">
+                    <div class="wheel">
+                        <div class="wheel-segment" data-prize="Chest"></div>
+                        <div class="wheel-segment" data-prize="Leg"></div>
+                        </div>
+                    <div class="spinner-arrow"></div>
+                </div>
+                <button id="spin-button" class="btn btn-gold">Spin</button>
+                <!-- <a  href="/spin/index.html" class="btn btn-gold">Spin</a> -->
+            </div>
+            <div class="game-board">
+                <div id="seat-1" class="seat"></div>
+                <div id="seat-2" class="seat"></div>
+                <!-- <div id="seat-3" class="seat"></div>
+                <div id="seat-4" class="seat"></div> -->
+                <img id="chest-piece-1" class="game-piece" src="https://i.imgur.com/2Xy5E1f.png" alt="Chest Piece 1">
+                <!-- <img id="chest-piece-2" class="game-piece" src="https://i.imgur.com/6Ea938j.png" alt="Chest Piece 2"> -->
+                <img id="leg-piece-1" class="game-piece" src="https://i.imgur.com/9C3B4W2.png" alt="Leg Piece 1">
+                <!-- <img id="leg-piece-2" class="game-piece" src="https://i.imgur.com/4S2x8wz.png" alt="Leg Piece 2"> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-utensils"></i>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Restaurants</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Cities</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-clock"></i>
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Min Delivery</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">
+                    Ready to Taste Authentic <span class="text-primary">Mandhi</span>?
+                </h2>
+                <p class="cta-description">
+                    Order now from your nearest restaurant or visit us for an unforgettable dining experience.
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Find Nearest Restaurant
+                    </button>
+                    <button class="btn btn-outline-dark">Call for Delivery</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand Section -->
+                <div class="footer-section">
+                    <h3 class="footer-brand">Mandhi Kerala</h3>
+                    <p class="footer-description">
+                        Bringing you the authentic taste of Middle Eastern Mandhi cuisine across Kerala. 
+                        Fresh ingredients, traditional recipes, and exceptional service.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#restaurants">Restaurants</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9876543210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@mandhikerala.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kerala, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>10:00 AM - 11:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Locations -->
+                <div class="footer-section">
+                    <h4 class="footer-title">Popular Locations</h4>
+                    <ul class="footer-links">
+                        <li>Kochi</li>
+                        <li>Thiruvananthapuram</li>
+                        <li>Kozhikode</li>
+                        <li>Thrissur</li>
+                        <li>Malappuram</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mandhi Kerala. All rights reserved. | Bringing authentic flavors to your table.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

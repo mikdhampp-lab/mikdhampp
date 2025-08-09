@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spin for your destiny!</h1>
+        <div class="input-section">
+            <label for="friends">Enter your friends' names (comma separated):</label>
+            <input type="text" id="friends" placeholder="e.g., John, Jane, Peter">
+        </div>
+        <div class="options-section">
+            <label for="chest-pieces">Number of Chest Pieces:</label>
+            <select id="chest-pieces">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <label for="leg-pieces">Number of Leg Pieces:</label>
+            <select id="leg-pieces">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <button id="spin-button">SPIN</button>
+        <div class="results-section">
+            <h2>Results:</h2>
+            <div id="results"></div>
+        </div>
+    </div>
+
+</body>
+</html>
